@@ -14,6 +14,18 @@
 
 /* Your own custom utilities */
 
+@layer base {
+  html {
+    font-family: Ingram, mono;
+  }
+}
+
+@font-face {
+  font-family: "Ingram";
+  src:  url("../public/fonts/ingram-mono/ingram-mono-regular.woff")  format('woff'),
+        url("../public/fonts/ingram-mono/ingram-mono-regular.woff2")  format('woff2');
+}
+
 .has-text-align-left {
   @apply text-left;
 }
