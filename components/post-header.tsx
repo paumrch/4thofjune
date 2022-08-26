@@ -1,4 +1,3 @@
-import Avatar from './avatar'
 import Date from './date'
 import CoverImage from './cover-image'
 import PostTitle from './post-title'
@@ -18,11 +17,8 @@ export default function PostHeader({
         <CoverImage title={title} coverImage={coverImage} />
       </div>
       <div className="max-w-2xl mx-auto">
-        <div className="block md:hidden mb-6">
-          <Avatar author={author} />
-        </div>
-        <div className="mb-6 text-lg">
-          Posted <Date dateString={date} />
+        <div className="mb-6 text-lg rounded-lg bg-gradient-to-r from-teal-200 to-lime-200 py-px px-2 text-sm text-gray-900">
+          Publicado el <Date dateString={date} />
           <Categories categories={categories} />
         </div>
       </div>

@@ -17,6 +17,7 @@ export default function CoverImage({ title, coverImage, slug }: Props) {
     <Image
       width={100}
       height={100}
+      priority
       layout="responsive"
       objectFit="contain"
       alt={`Cover Image for ${title}`}
