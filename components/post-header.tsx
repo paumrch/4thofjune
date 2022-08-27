@@ -12,8 +12,8 @@ export default function PostHeader({
 }) {
   return (
     <>
+    <div className="max-w-2xl mx-auto mb-8 md:mb-16 sm:mx-0">
       <PostTitle>{title}</PostTitle>
-      <div className="mb-8 md:mb-16 sm:mx-0">
         <CoverImage title={title} coverImage={coverImage} />
       </div>
       <div className="max-w-2xl mx-auto">

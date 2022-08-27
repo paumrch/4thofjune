@@ -28,7 +28,7 @@ export default function CoverImage({ title, coverImage, slug }: Props) {
     />
   )
   return (
-    <div className="sm:mx-0">
+    <div className="sm:mx-0 mx-auto">
       {slug ? (
         <Link href={`/posts/${slug}`}>
           <a aria-label={title}>{image}</a>

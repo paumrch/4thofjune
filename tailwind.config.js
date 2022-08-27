@@ -4,6 +4,9 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
+    screens: {
+      xl: '1440px',
+    },
     extend: {
       fontFamily: {
         'mono': ['Ingram', 'mono'] 
