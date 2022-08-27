@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           description: "Escrito por Pau March.",
           images: [
             {
-              url: "https://www.4thofjune.com/images/featured_4thofjune.png",
+              url: "/images/featured_4thofjune.jpg",
               width: 1200,
               height: 630,
               alt: "4thofJune",
