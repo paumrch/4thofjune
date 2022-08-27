@@ -15,12 +15,12 @@ interface Props {
 export default function CoverImage({ title, coverImage, slug }: Props) {
   const image = (
     <Image
-      width={100}
-      height={100}
+      width={500}
+      height={500}
       priority
       layout="responsive"
       objectFit="contain"
-      alt={`Cover Image for ${title}`}
+      alt={`Imagen destacada de ${title}`}
       src={coverImage?.node.sourceUrl}
       className={cn('shadow-small', {
         'hover:shadow-medium transition-shadow duration-200': slug,
