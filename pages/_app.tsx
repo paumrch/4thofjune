@@ -17,10 +17,11 @@ function MyApp({ Component, pageProps }: AppProps) {
           description: "Escrito por Pau March.",
           images: [
             {
-              url: "../images/featured_4thofjune.png",
+              url: "https://www.4thofjune.com/images/featured_4thofjune.png",
               width: 1200,
               height: 630,
               alt: "4thofJune",
+              type: 'image/jpeg'
             },
           ],
         }}
