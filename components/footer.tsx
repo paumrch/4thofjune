@@ -23,7 +23,6 @@ export default function Footer() {
             </li>
         </ul>
     </div>
-    <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
     <span className="block text-sm sm:text-center">© 2022 <a href="https://4thofjune.com/" className="hover:underline">4thofJune™</a>.
     </span>
       </Container>

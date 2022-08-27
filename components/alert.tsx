@@ -25,12 +25,12 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              Puedes seguirme al día en {' '}
+              Este proyecto es de código abierto en {' '}
               <a
-                href={`https://twitter.com/paumrch`}
+                href={`https://github.com/paumrch`}
                 className="underline hover:text-success duration-200 transition-colors"
               >
-                Twitter
+                GitHub
               </a>
               .
             </>
