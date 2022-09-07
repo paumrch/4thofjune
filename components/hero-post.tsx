@@ -13,6 +13,7 @@ export default function HeroPost({
 }) {
   return (
     <section>
+      <div className="grid items-center grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:grid-cols-2 lg:gap-x-32 xl:grid-cols-2 xl:gap-x-24 gap-y-20 md:gap-y-32 mb-32">
       <div className="mb-8 md:mb-16">
         {coverImage && (
           <CoverImage title={title} coverImage={coverImage} slug={slug} />
@@ -39,6 +40,7 @@ export default function HeroPost({
           />
           {/* <Avatar author={author} /> */}
         </div>
+      </div>
       </div>
     </section>
   )

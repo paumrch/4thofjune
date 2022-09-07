@@ -23,7 +23,7 @@ export default function Footer() {
             </li>
         </ul>
     </div>
-    <span className="block text-sm sm:text-center">© 2022 <a href="https://4thofjune.com/" className="hover:underline">4thofJune™</a>.
+    <span className="block text-sm sm:text-center">© 2022 <a href="/" className="hover:underline">4thofJune™</a>.
     </span>
       </Container>
     </footer>
