@@ -1,22 +1,22 @@
-import PostPreview from './post-preview'
+// Este componente es una copia de MorePosts. Tampoco ha funcionado.
 
-export default function MoreStories({ posts }) {
+import CategoriesPreview from "./categories-preview"
+
+export default function MoreCategories({ categories }) {
   return (
     <section>
       <h2 className="mb-8 pt-16 text-3xl md:text-5xl font-bold tracking-tighter leading-tight">
         Tal vez te interese...
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:grid-cols-3 lg:gap-x-32 xl:grid-cols-3 xl:gap-x-24 gap-y-20 md:gap-y-32 mb-32">
-        {posts.map(({ node }) => (
-          <PostPreview
+        {categories.map(({ node }) => (
+          <CategoriesPreview
             key={node.slug}
-            title={node.title}
-            coverImage={node.featuredImage}
-            date={node.date}
-            author={node.author}
+            name={node.name}
             slug={node.slug}
-            excerpt={node.excerpt}
-          />
+            categories={node.categories}
+            category={node.category}
+            />
         ))}
       </div>
     </section>

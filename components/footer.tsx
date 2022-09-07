@@ -4,7 +4,7 @@ import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 
 export default function Footer() {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2 p-4 rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+    <footer className="bg-accent-1 border-t border-accent-2 p-4 pt-12 rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
       <Container>
       <div className="sm:flex sm:items-center sm:justify-between">
         <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0">

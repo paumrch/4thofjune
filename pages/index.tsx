@@ -7,12 +7,18 @@ import Intro from "../components/intro";
 import Layout from "../components/layout";
 import Subscribe from "../components/subscribe";
 import { getAllPostsForHome } from "../lib/api";
-import { title } from "process";
-import PostPreview from "../components/post-preview";
+import MoreCategories from "../components/more-categories";
+
+// Estoy bloqueado queriendo mostrar un enlace a la página de categoría,
+// para poder diferenciar el contenido.
+
+// 7 - 9. Me rindo por hoy :(
 
 export default function Index({ allPosts: { edges }, preview }) {
   const heroPost = edges[0]?.node;
   const morePosts = edges.slice(1);
+  // Esta const la he copiado. No entiendo qué papel hace.
+  const moreCategories = edges.slice(1);
 
   return (
     <Layout preview={preview}>
@@ -31,7 +37,9 @@ export default function Index({ allPosts: { edges }, preview }) {
             excerpt={heroPost.excerpt}
           />
         )}
+
         <Subscribe />
+        {/* {moreCategories.length > 0 && <MoreCategories categories={moreCategories} />} */}
         {morePosts.length > 0 && <MoreStories posts={morePosts} />}
       </Container>
     </Layout>

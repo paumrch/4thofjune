@@ -1,3 +1,6 @@
+// Este es el fichero del que carga la categoría dentro del post. 
+// No se ha tocado.
+
 export default function Categories({ categories }) {
   return (
     <span className="ml-2">
