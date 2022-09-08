@@ -36,7 +36,7 @@ function Subscribe() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto relative flex flex-col items-center justify-center overflow-hidden mb-16 md:mb-12">
+    <div className="max-w-2xl mx-auto relative flex flex-col items-center justify-center overflow-hidden mb-8 md:mb-8">
       <div className="w-full max-w-4xl rounded-md border-2 border-gray-100 bg-white p-14">
       <div className="flex flex-col items-center">
         <span className="-rotate-1 rounded-lg bg-gradient-to-r from-teal-200 to-lime-200 py-px px-2 text-sm text-gray-900">
