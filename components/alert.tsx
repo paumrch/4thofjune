@@ -11,7 +11,7 @@ export default function Alert({ preview }) {
       })}
     >
       <Container>
-        <div className="py-2 text-center text-sm">
+        <div className="py-2 text-center text-sm font-mono">
           {preview ? (
             <>
               This is a page preview.{' '}
@@ -25,7 +25,7 @@ export default function Alert({ preview }) {
             </>
           ) : (
             <>
-              Este proyecto es de código abierto en {' '}
+              Encontrarás el código de este proyecto en {' '}
               <a
                 href={`https://github.com/paumrch`}
                 className="underline hover:text-success duration-200 transition-colors"

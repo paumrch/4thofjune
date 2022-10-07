@@ -9,7 +9,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        'mono': ['Ingram', 'mono'] 
+        'mono': ['Ingram', 'mono'],
+        'inter': ['Inter' , 'sans'] 
       },
       colors: {
         'accent-1': '#FAFAFA',
