@@ -16,8 +16,7 @@
 
 @layer base {
   html {
-    font-family: "Inter";
-    font-weight: normal;
+    font-family: Inter, sans-serif;
   }
 
   h1,
