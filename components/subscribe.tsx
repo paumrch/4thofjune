@@ -37,13 +37,13 @@ function Subscribe() {
 
   return (
     <div className="mx-auto relative flex flex-col items-center justify-center mb-8 md:mb-12">
-      <div className="w-full rounded-md border-2 border-emerald-100 bg-emerald-50 p-14">
+      <div className="w-full rounded-md border-2 border-orange-100 bg-orange-50 p-14">
       <div className="flex flex-col items-center">
-        <span className="-rotate-1 rounded-lg bg-gradient-to-r from-emerald-200 to-emerald-300 py-px px-2 text-sm font-serif text-gray-900">
+        <span className="-rotate-1 rounded-lg bg-gradient-to-r from-orange-200 to-orange-300 py-px px-2 text-sm font-serif text-orange-700">
           Cada lunes a las 22:00h.
         </span>
         <h3 className="mt-2 max-w-2xl text-center text-2xl font-bold leading-tight sm:text-3xl md:text-4xl md:leading-tight">
-          ¿Quieres recibir todas las novedades?
+          ¿Quieres recibir cada publicación?
         </h3>
         <form
             onSubmit={subscribe}
@@ -59,7 +59,7 @@ function Subscribe() {
               required
               autoCapitalize="off"
               autoCorrect="off"
-              className="grow rounded text-sm py-3 px-3 focus:border-1 border-emerald-300 focus:border-emerald-400"
+              className="grow rounded text-sm py-3 px-3 focus:ring-0 focus:border-2 border-orange-300 focus:border-orange-400"
             />
             {/* <div>
             {message
@@ -70,14 +70,14 @@ function Subscribe() {
               type="submit"
               value=""
               name="subscribe"
-              className="rounded px-3 py-3 bg-emerald-400 hover:bg-emerald-500 text-white
+              className="rounded px-3 py-3 bg-orange-400 hover:bg-orange-500 text-white
             "
             >
               Suscríbeme
             </button>
           </form>
       </div>
-      <div className="flex flex-col items-center mt-4 text-xs text-emerald-500">
+      <div className="flex flex-col items-center mt-4 text-xs text-orange-500">
         {message
           ? message
           : `Revisa tu bandeja de entrada.`}

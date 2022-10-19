@@ -12,12 +12,12 @@ export default function PostHeader({
 }) {
   return (
     <>
-      <PostTitle>{title}</PostTitle>
-      <div className="mb-2 md:mb-4 sm:mx-0">
+      <div className="mt-8 md:mt-16 mb-2 md:mb-4 sm:mx-0">
         <CoverImage title={title} coverImage={coverImage} />
       </div>
+      <PostTitle>{title}</PostTitle>
       <div className="max-w-2xl mx-auto">
-        <div className="mb-2 text-sm">
+        <div className="mb-2 text-sm font-serif text-center">
           <Categories categories={categories} />
           <Date dateString={date} />
         </div>
