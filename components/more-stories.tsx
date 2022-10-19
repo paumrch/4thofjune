@@ -3,10 +3,10 @@ import PostPreview from './post-preview'
 export default function MoreStories({ posts }) {
   return (
     <section>
-      <h2 className="mb-8 pt-16 text-3xl md:text-5xl font-bold tracking-tighter leading-tight">
-        Tal vez te interese...
+      <h2 className="mb-8 pt-16 text-3xl md:text-3xl font-semibold tracking-tighter leading-tight">
+        Últimas publicaciones...
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:grid-cols-3 lg:gap-x-32 xl:grid-cols-3 xl:gap-x-24 gap-y-20 md:gap-y-32 mb-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-8 gap-y-20 md:gap-y-32 mb-32">
         {posts.map(({ node }) => (
           <PostPreview
             key={node.slug}

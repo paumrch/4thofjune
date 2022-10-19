@@ -8,40 +8,35 @@ export default function HeroPost({
   coverImage,
   date,
   excerpt,
-  author,
   slug,
 }) {
   return (
     <section>
-      <div className="grid items-center grid-cols-1 md:grid-cols-2 md:gap-x-16 lg:grid-cols-2 lg:gap-x-32 xl:grid-cols-2 xl:gap-x-24 gap-y-20 md:gap-y-32 xl:mb-16">
-      <div className="mb-8 md:mb-8">
-        {coverImage && (
-          <CoverImage title={title} coverImage={coverImage} slug={slug} />
-        )}
-      </div>
-      <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-20 md:mb-28">
-        <div>
-          <h3 className="mb-4 text-4xl lg:text-6xl leading-tight">
-            <Link href={`/posts/${slug}`}>
-              <a
-                className="hover:underline"
-                dangerouslySetInnerHTML={{ __html: title }}
-              />
-            </Link>
-          </h3>
-          <div className="mb-4 md:mb-0 text-lg">
-            <Date dateString={date} />
-          </div>
-        </div>
-        <div>
-          <div
-            className="text-lg leading-relaxed mb-4"
-            dangerouslySetInnerHTML={{ __html: excerpt }}
-          />
-          {/* <Avatar author={author} /> */}
+    <div className="mb-4 md:mb-12">
+      {coverImage && (
+        <CoverImage title={title} coverImage={coverImage} slug={slug} />
+      )}
+    </div>
+    <div className="flex flex-col md:flex-row md:gap-8 mb-8 md:mb-12">
+      <div className="">
+        <h3 className="mb-2 text-3xl font-semibold lg:text-3xl leading-tight">
+          <Link href={`/${slug}`}>
+            <a
+              dangerouslySetInnerHTML={{ __html: title }}
+            />
+          </Link>
+        </h3>
+        <div className="md:flex-1 md:w-64 mb-4 md:mb-4 text-xs">
+
+          <Date dateString={date} />
+
         </div>
       </div>
-      </div>
-    </section>
+        <div
+          className="text-lg leading-relaxed mb-4"
+          dangerouslySetInnerHTML={{ __html: excerpt }}
+        />
+    </div>
+  </section>
   )
 }

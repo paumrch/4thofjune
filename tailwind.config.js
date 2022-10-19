@@ -4,12 +4,8 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    screens: {
-      xl: '1440px',
-    },
     extend: {
       fontFamily: {
-        'mono': ['Ingram', 'mono'],
         'inter': ['Inter' , 'sans'] 
       },
       colors: {
@@ -40,5 +36,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+]
 }

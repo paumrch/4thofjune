@@ -1,27 +1,27 @@
-import Date from './date'
-import CoverImage from './cover-image'
-import PostTitle from './post-title'
-import Categories from './categories'
+import Date from "./date";
+import CoverImage from "./cover-image";
+import PostTitle from "./post-title";
+import Categories from "./categories";
 
 export default function PostHeader({
   title,
   coverImage,
   date,
   author,
-  categories
+  categories,
 }) {
   return (
     <>
-    <div className="max-w-2xl mx-auto mb-8 md:mb-16 sm:mx-0">
       <PostTitle>{title}</PostTitle>
+      <div className="mb-2 md:mb-4 sm:mx-0">
         <CoverImage title={title} coverImage={coverImage} />
       </div>
       <div className="max-w-2xl mx-auto">
-        <div className="mb-6 text-lg rounded-lg bg-gradient-to-r from-teal-200 to-lime-200 py-px px-2 text-sm text-gray-900">
-          Publicado el <Date dateString={date} />
+        <div className="mb-2 text-sm">
           <Categories categories={categories} />
+          <Date dateString={date} />
         </div>
       </div>
     </>
-  )
+  );
 }

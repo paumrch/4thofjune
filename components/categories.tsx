@@ -1,19 +1,19 @@
-// Este es el fichero del que carga la categoría dentro del post. 
-// No se ha tocado.
+import Link from "next/link";
 
 export default function Categories({ categories }) {
   return (
-    <span className="ml-2">
-      en la categoría: 
-      {categories.edges.length > 0 ? (
+    <span className="">
+      {categories?.edges.length > 0 ? (
         categories.edges.map((category, index) => (
-          <span key={index} className="ml-2">
-            {category.node.name}
+          <span key={index} className="uppercase font-semibold">
+            {category.node.name}.
           </span>
         ))
       ) : (
-        <span className="ml-2">{categories.edges.node.name}</span>
+        <span className="uppercase font-semibold">
+          {categories?.edges.node.name}.
+        </span>
       )}
     </span>
-  )
+  );
 }

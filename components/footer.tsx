@@ -1,30 +1,32 @@
 import Container from "./container";
 import { EXAMPLE_PATH } from "../lib/constants";
-import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-accent-1 border-t border-accent-2 p-4 pt-12 rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-900">
+    <footer className="p-4 bg-white md:p-8 lg:p-10 dark:bg-gray-800">
       <Container>
-      <div className="sm:flex sm:items-center sm:justify-between">
-        <a href="https://www.4thofjune.com/" className="flex items-center mb-4 sm:mb-0">
-            <img src="../images/logo4thofJune.svg" className="mr-3 h-4" alt="4thofJune" />
-            
-        </a>
-        <ul className="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
+        <div className="mx-auto max-w-screen-xl text-center">
+          <Link href="/">
+            <h1 className="text-3xl text-center leading-none md:text-3xl font-bold mb-4">
+              4thOfJune
+            </h1>
+          </Link>
+          {/* <ul className="flex flex-wrap justify-center items-center mt-6 mb-6 text-gray-900 dark:text-white">
             <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6 ">Pau March</a>
+              <Link href="/">
+                <a className="mr-4 hover:underline md:mr-6">Ideas</a>
+              </Link>
             </li>
-            <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6">Desarrollo</a>
-            </li>
-            <li>
-                <a href="#" className="mr-4 hover:underline md:mr-6 ">Ideas</a>
-            </li>
-        </ul>
-    </div>
-    <span className="block text-sm sm:text-center">© 2022 <a href="/" className="hover:underline">4thofJune™</a>.
-    </span>
+          </ul> */}
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+            © 2022{" "}
+            <a href="#" className="hover:underline">
+              4thOfJune
+            </a>
+            . Todos los Derechos Reservados.
+          </span>
+        </div>
       </Container>
     </footer>
   );

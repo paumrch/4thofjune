@@ -6,7 +6,8 @@ interface Props {
   title: string
   coverImage: {
     node: {
-      sourceUrl: string
+      sourceUrl: string;
+      altText: string;
     }
   }
   slug?: string
@@ -15,27 +16,31 @@ interface Props {
 export default function CoverImage({ title, coverImage, slug }: Props) {
   const image = (
     <Image
-      width={500}
-      height={500}
-      priority
-      layout="responsive"
-      objectFit="contain"
-      alt={`Imagen destacada de ${title}`}
-      src={coverImage?.node.sourceUrl}
-      className={cn('shadow-small', {
-        'hover:shadow-medium transition-shadow duration-200': slug,
-      })}
-    />
+    layout="responsive"
+    width={50}
+    height={35}
+    priority
+    objectFit="contain"
+    alt={`Imagen destacada de ${title}`}
+    src={coverImage?.node.sourceUrl}
+    className={cn("shadow-small", {
+      "hover:shadow-medium transition-shadow duration-200": slug,
+    })}
+  />
   )
+
+  const altText = coverImage?.node.altText;
+
   return (
     <div className="sm:mx-0 mx-auto">
       {slug ? (
-        <Link href={`/posts/${slug}`}>
+        <Link href={`/${slug}`}>
           <a aria-label={title}>{image}</a>
         </Link>
       ) : (
         image
       )}
+      <div className="mx-auto text-xs text-center text-neutral-400 md:text-sm mt-4">{altText}</div>
     </div>
   )
 }
