@@ -33,7 +33,7 @@ export default function Post({ post, posts, preview }) {
             <article>
               <Head>
                 <title>
-                  {post.title} | Blog sobre Desarrollo.
+                  {post.title} | Escrto por Pau March.
                 </title>
                 <meta
                   property="og:image"

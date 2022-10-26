@@ -14,7 +14,7 @@ export default function Document() {
         ></link>
         <meta
           property="og:image"
-          content="https://www.4thofjune.com/images/featured_4thofjune.jpg"
+          content="/images/featured.png"
         />
       </Head>
       <body>
