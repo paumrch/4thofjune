@@ -20,9 +20,9 @@ export default function PostPreview({
       </div>
       <h3 className="text-3xl font-semibold mb-3 leading-snug">
         <Link href={`/${slug}`}>
-          <a
+          <span
             dangerouslySetInnerHTML={{ __html: title }}
-          ></a>
+          ></span>
         </Link>
       </h3>
       <div className="font-mono text-sm mb-4">

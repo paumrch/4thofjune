@@ -12,18 +12,11 @@ export default function Footer() {
               4thOfJune
             </h1>
           </Link>
-          {/* <ul className="flex flex-wrap justify-center items-center mt-6 mb-6 text-gray-900 dark:text-white">
-            <li>
-              <Link href="/">
-                <a className="mr-4 hover:underline md:mr-6">Ideas</a>
-              </Link>
-            </li>
-          </ul> */}
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2022{" "}
-            <a href="#" className="hover:underline">
+            <p className="hover:underline">
               4thOfJune
-            </a>
+            </p>
             . Todos los Derechos Reservados.
           </span>
         </div>

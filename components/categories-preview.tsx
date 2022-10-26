@@ -17,9 +17,9 @@ export default function CategoriesPreview({
         </h3>
         <h3 className="text-3xl mb-3 leading-snug">
           <Link href={`/${category}`}>
-            <a
+            <span
               dangerouslySetInnerHTML={{ __html: name }}
-            ></a>
+            ></span>
           </Link>
         </h3>
       </div>

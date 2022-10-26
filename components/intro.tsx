@@ -11,16 +11,6 @@ export default function Intro() {
       <span className="text-center font-mono md:text-center text-sm mt-5">
         Escrito por Pau March.
       </span>
-
-      <div className="justify-between items-center text-center w-full lg:flex lg:w-auto">
-        {/* <ul className="flex flex-row flex-wrap justify-center text-sm	font-mono mt-3 mb-3 lg:space-x-8 lg:mt-6">
-        <li>
-          <a href="/" className="uppercase mr-4 mb-4">
-            Ideas
-          </a>
-        </li>
-      </ul> */}
-      </div>
     </header>
   );
 }
