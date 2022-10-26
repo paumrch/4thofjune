@@ -8,7 +8,7 @@ export default function Footer() {
       <Container>
         <div className="mx-auto max-w-screen-xl text-center">
           <Link href="/">
-            <h1 className="text-3xl text-center leading-none md:text-3xl font-bold mb-4">
+            <h1 className="text-3xl text-center leading-none md:text-3xl font-semibold mb-4">
               4thOfJune
             </h1>
           </Link>

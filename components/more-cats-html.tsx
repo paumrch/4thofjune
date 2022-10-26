@@ -16,7 +16,7 @@ export default function HeroCats ({categories}) {
               <div className="flex justify-between items-center mb-5 text-gray-500">
                   <span className="text-sm">12 Artículos</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h2 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
               Ideas
               </h2>
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.</p>
@@ -31,7 +31,7 @@ export default function HeroCats ({categories}) {
               <div className="flex justify-between items-center mb-5 text-gray-500">
                   <span className="text-sm">14 days ago</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Ideas</a></h2>
+              <h2 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white"><a href="#">Ideas</a></h2>
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.</p>
               <div className="flex justify-between items-center">
                   <a href="#" className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500">

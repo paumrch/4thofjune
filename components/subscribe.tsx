@@ -39,10 +39,10 @@ function Subscribe() {
     <div className="mx-auto relative flex flex-col items-center justify-center mb-8 md:mb-12">
       <div className="w-full rounded-md border-2 border-orange-100 bg-orange-50 p-14">
       <div className="flex flex-col items-center">
-        <span className="-rotate-1 rounded-lg bg-gradient-to-r from-orange-200 to-orange-300 py-px px-2 text-sm font-serif text-orange-700">
+        <span className="-rotate-1 rounded-lg bg-gradient-to-r from-orange-200 to-orange-300 py-px px-2 text-sm font-mono text-orange-700">
           Cada lunes a las 22:00h.
         </span>
-        <h3 className="mt-2 max-w-2xl text-center text-2xl font-bold leading-tight sm:text-3xl md:text-4xl md:leading-tight">
+        <h3 className="mt-2 max-w-2xl text-center text-2xl font-semibold leading-tight sm:text-3xl md:text-4xl md:leading-tight">
           ¿Quieres recibir cada publicación?
         </h3>
         <form

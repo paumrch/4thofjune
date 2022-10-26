@@ -17,7 +17,7 @@ export default function PostHeader({
       </div>
       <PostTitle>{title}</PostTitle>
       <div className="max-w-2xl mx-auto">
-        <div className="mb-2 text-sm font-serif text-center">
+        <div className="mb-2 text-sm font-mono text-center">
           <Categories categories={categories} />
           <Date dateString={date} />
         </div>

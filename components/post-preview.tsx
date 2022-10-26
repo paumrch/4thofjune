@@ -25,7 +25,7 @@ export default function PostPreview({
           ></a>
         </Link>
       </h3>
-      <div className="text-sm mb-4">
+      <div className="font-mono text-sm mb-4">
         <Date dateString={date} />
       </div>
       <div
