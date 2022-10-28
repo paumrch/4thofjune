@@ -30,7 +30,7 @@
 }
 
 table {
-  @apply text-sm table-auto border-separate border-spacing-4; 
+  @apply text-xs border-separate; 
 }
 
 .has-text-align-left {
