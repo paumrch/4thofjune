@@ -29,6 +29,10 @@
   }
 }
 
+table {
+  @apply text-sm table-auto border-separate border-spacing-4; 
+}
+
 .has-text-align-left {
   @apply text-left;
 }
