@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url><loc>https://www.4thofjune.com</loc><lastmod>2022-09-07T09:22:54.516Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.4thofjune.com/posts/remote</loc><lastmod>2022-09-07T09:22:54.516Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.4thofjune.com/posts/dia-uno</loc><lastmod>2022-09-07T09:22:54.516Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
-<url><loc>https://www.4thofjune.com/posts/el-fin-de-la-abundancia</loc><lastmod>2022-09-07T09:22:54.516Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.4thofjune.com</loc><lastmod>2022-10-28T14:58:21.769Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.4thofjune.com/ecommerce-en-2023</loc><lastmod>2022-10-28T14:58:21.769Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.4thofjune.com/the-times-they-are-a-changin</loc><lastmod>2022-10-28T14:58:21.769Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.4thofjune.com/remote</loc><lastmod>2022-10-28T14:58:21.769Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.4thofjune.com/dia-uno</loc><lastmod>2022-10-28T14:58:21.769Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
+<url><loc>https://www.4thofjune.com/el-fin-de-la-abundancia</loc><lastmod>2022-10-28T14:58:21.769Z</lastmod><changefreq>daily</changefreq><priority>0.7</priority></url>
 </urlset>
