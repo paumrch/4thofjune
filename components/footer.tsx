@@ -13,11 +13,7 @@ export default function Footer() {
             </h1>
           </Link>
           <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-            © 2022{" "}
-            <p className="hover:underline">
-              4thOfJune
-            </p>
-            . Todos los Derechos Reservados.
+            © 2023 4thOfJune. Todos los Derechos Reservados.{" "}
           </span>
         </div>
       </Container>
